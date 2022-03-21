@@ -1,0 +1,33 @@
+{
+  "name": "mini-node-server",
+  "version": "1.0.0",
+  "description": "mini node server with ts, decided to deepen my understanding of node server, I started thinking about creating http server from scratch.",
+  "main": "no",
+  "scripts": {
+    "test": "test",
+    "compile": "tsc -p ./tsconfig.server.json",
+    "serve": "tsc -p ./tsconfig.server.json && node ./out-tsc/app-server/Server",
+    "debug": "node --inspect ./out-tsc/app-server/Server/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiongbs/mini-node-server.git"
+  },
+  "keywords": [
+    "node",
+    "ts",
+    "mini",
+    "server"
+  ],
+  "author": "beni",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  },
+  "bugs": {
+    "url": "https://github.com/xiongbs/mini-node-server/issues"
+  },
+  "homepage": "https://github.com/xiongbs/mini-node-server#readme"
+}
